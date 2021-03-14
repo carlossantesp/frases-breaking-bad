@@ -8,27 +8,26 @@ html {
 }
 * {
   margin: 0;
+  padding: 0;
 }
-html {
-  height: 100%;
-}
+
 body {
-  background-image: url(logo.svg),
-    -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
-  min-height: 100%;
-  background-position: center 80px, center center;
-  background-repeat: no-repeat;
-  background-size: 300px, 100% 100%;
-  display: flex;
-  align-items: flex-end;
+  background-image: -webkit-linear-gradient(
+    top left,
+    #f1cb2c 0%,
+    #f1cb2c 40%,
+    #dfa916 100%
+  );
+  font-family: Arial, Helvetica, sans-serif;
 }
-@media (min-width: 768px) {
-  body {
-    align-items: center;
-    background-size: 400px, 100% 100%;
-  }
+
+img {
+  width: 100%;
+  display: block;
 }
 
 #root {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
